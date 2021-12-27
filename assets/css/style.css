@@ -126,3 +126,45 @@ h1 {
 #presetCities button.wait, #search button.wait{
   cursor: progress;
 }
+
+
+@media only screen and (min-width: 768px) {
+  #container{
+    display: flex;
+    align-items: stretch;
+    min-height: calc( 100% - 70px);
+  }
+
+  #forecast h2, #forecast .days{
+    padding: 0 20px;
+  }
+
+  #forecast .days{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  #forecast .days div{
+    width:calc(20% - 20px);
+  }
+
+  #cities{
+    min-width:25%;
+  }
+
+  #weather{
+    min-width:75%;
+  }
+
+  #currentDay, #forecast{
+    min-height:40%;
+  }
+}
+
+
+@media only screen and (min-width: 1120px) {
+  
+  #forecast .days div{
+    width:calc(20% - 40px);
+  }
+}
