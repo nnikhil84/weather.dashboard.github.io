@@ -20,5 +20,5 @@
 
 ## Git hub repository URL
 
-* https://nnikhil84.github.io/weather.dashboard.github.io/  
+* https://github.com/nnikhil84/weather.dashboard.github.io 
 
